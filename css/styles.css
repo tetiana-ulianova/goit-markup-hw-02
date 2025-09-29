@@ -1,0 +1,144 @@
+/* #region Global */
+body {
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Roboto", "Raleway", sans-serif;
+}
+/* #endregion */
+
+ul, ol {
+    list-style-type: none;
+}
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+.button {
+   border: none;
+   background-color: #4D5AE5;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+/* region Common */
+.visually-hidden
+{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.logo {
+font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo:hover,
+.logo:focus {
+    color: #404BBF;
+}
+.header-logo-studio {
+    font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:#434455;
+}
+.header-logo-studio:hover,
+.header-logo-studio:focus {
+    color: #404BBF;
+}
+.nav {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.nav:hover,
+.nav:focus {
+    color: #404BBF;
+}
+.contacts {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+color: #404BBF;
+}
+h1 {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #2E2F42;
+}
+h3 {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.features-text {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+h2 {
+    font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.member-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.member-position {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.accent {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+
+}
+.accent:hover,
+.accent:focus {
+   color: #404BBF;
+}
