@@ -142,3 +142,13 @@ h2 {
 .accent:focus {
    color: #404BBF;
 }
+.team {
+    background-color: #F4F4FD;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+.footer-text {
+    color: #F4F4FD;
+}
